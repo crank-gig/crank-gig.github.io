@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="105"
+   height="35"
+   viewBox="0 0 27.78125 9.2604169"
+   version="1.1"
+   id="svg1260"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="dots.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1262"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.46324355"
+     inkscape:cx="396.11993"
+     inkscape:cy="266.59843"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1257">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect10316"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect10322"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path13264"
+       cx="-23.401028"
+       cy="4.451282"
+       transform="scale(-1,1)"
+       rx="4.4331312"
+       ry="4.630208" />
+    <ellipse
+       style="opacity:0.666667;fill:#ffa500;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="circle23109"
+       cx="-13.943532"
+       cy="4.451282"
+       transform="scale(-1,1)"
+       rx="4.4331312"
+       ry="4.630208" />
+    <ellipse
+       style="opacity:0.319277;fill:#ffbe00;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="circle24263"
+       cx="-4.4860482"
+       cy="4.451282"
+       transform="scale(-1,1)"
+       rx="4.4331312"
+       ry="4.630208" />
+  </g>
+</svg>
