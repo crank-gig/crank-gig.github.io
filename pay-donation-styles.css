@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box; font-family: 'freesansmedium';
+}
+html{
+    width:100%; overflow-x: hidden; background: #fbf8f6;
+}
+body{
+    width:100%; margin:0% 0px 0px 0%; overflow-x:hidden; position:relative;
+}
+
+body>div{
+    background: white; max-width: 550px; border-radius: 20px; margin-top: 50px;
+    padding: 15px;
+}
+
+.main>p{
+    font-size: 20px;
+}
+label{
+    display: block; font-weight: bold; font-size: 18px; font-family: 'freesans';
+}
+input{
+    width: 90%; font-size: 40px; border-radius: 20px; 
+    padding: 10px; outline: none; border: 1px solid black
+}
