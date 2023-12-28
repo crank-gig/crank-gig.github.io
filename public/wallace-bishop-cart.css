@@ -1,0 +1,181 @@
+:root {
+    box-sizing: border-box;
+    --heading-color:  #252525;
+    --text-color: #737373;
+    --base-font-size: 14px;
+    --heading-font-family: Montserrat, sans-serif;
+    --heading-font-weight: 500;
+    --heading-font-style: normal;
+    --text-font-weight: 400;
+    --text-font-style: normal;
+    --text-font-bold-weight: 600;
+    --heading-xxsmall-font-size: 10px;
+    --lr-padding: 0px 10px 0px 10px;
+}
+html {
+    font-family: var(--text-font-family);
+    font-weight: var(--text-font-weight);
+    font-style: var(--text-font-style);
+    color: var(--text-color);
+    
+    width:100%; overflow-x: hidden; 
+}
+body{
+    width:100%; margin:0% 0px 0px 0%; overflow-x:hidden; position:relative;
+}
+
+.drawer{
+    display: flex; position: fixed; right: 0;
+    width: 100%; max-width: 500px;
+}
+
+/* Add your styles here */
+.cart {
+    width: 100%; max-width: 500px; 
+    position: relative; height: 100%;
+}
+.cart-header {
+    position: fixed; 
+    flex: 1; top: 0; display: flex; color: var(--heading-color); 
+    border-bottom: 1px solid #e6e6e6; font-size: 22px; width: 100%;
+    max-width: 500px; align-items: center; 
+    justify-content: space-between;
+    background-color: white;
+    height: 70px;
+}
+.drawer-title {
+    padding-left: 15px; display: flex;
+}
+.drawer-title>span:nth-of-type(2){
+    padding-left: 10px;
+}
+.drawer-close-button {
+   border: none; cursor: pointer; background: white; 
+   padding-right: 25px
+}
+
+.cart-body{
+    margin-top: 80px; width: 100%; overflow-y: auto;
+}
+.cart-body-inner{
+    width: 90%; margin: auto; 
+}
+.free-shipping-notice>p{
+    text-align: center;
+}
+.free-shipping-notice>div{
+    height: 8px; background: black; border-radius: 5px; 
+    margin-bottom: 15px;
+}
+
+/*-----styles for cart items-----*/
+.shopping-cart-item {
+    display: flex; align-items: center; 
+    margin-bottom: 15px;
+}
+.item-image-wrapper>img{
+    width: 92px; height: 92px;
+}
+.item-details{
+    padding-left: 10px; padding-right: 10px;
+    flex: 50%;
+}
+.item-details>h4{
+    margin-bottom: 5px;
+}
+.item-name-and-price{
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+    margin-bottom: 20px;
+}
+.item-name-and-price>span:nth-of-type(1){
+    max-width: 250px; margin-bottom: 10px;
+}
+.control-remove{
+    display: flex; align-items: center; flex-wrap: wrap;
+}
+.quantity-control {
+    display: flex; align-items: center; width: 90px; height: 30px;
+    border: 1px solid #e6e6e6; margin-right: 20px;
+}
+.quantity-control>div{
+    height: 30px; flex: 1; display: flex; align-items: center; 
+    justify-content: center;
+}
+.quantity-btn{
+    cursor: pointer;
+}
+.quantity-btn:nth-of-type(1) {
+    border-right: 1px solid #e6e6e6;
+}
+.quantity-display {
+    border-right: 1px solid #e6e6e6;
+    text-align: center;
+}
+
+.remove-item {
+    text-decoration: underline; cursor: pointer;
+}
+
+footer{
+    font-size: 12px; border-top: 1px solid #e6e6e6;
+    position: fixed; width: 100%; max-width: 500px;
+    bottom: 0px; background: white; padding-bottom: 40px
+}
+.cart-footer{
+    width: 90%; margin: auto; padding-top: 15px;
+}
+.pre-button {
+    display: flex; font-size: 14px;
+    justify-content: space-between;
+    flex-wrap: wrap; margin-bottom: 20px;
+}
+.pre-button>div:nth-of-type(1) {
+    text-decoration: underline;
+}
+
+.checkout-button {
+    width: 100%; background-color: #202223;
+    color: white; height: 52px; position: relative;
+    border: none; font-size: 16px;
+    text-align: center;
+}
+.checkout-button>span:nth-of-type(1){
+    position: absolute; left: 10px; 
+}
+.square-separator {
+    width: 5px; height: 5px; display: inline-block;
+    background: white; margin: 0px 5px 3px 5px;
+}
+
+aside{
+    width: 240px; background: rgb(247, 247, 247); overflow-x: hidden;
+    overflow-y: auto; margin: 0; scrollbar-width: thin;
+    padding-top: 35px; padding-bottom: 35px;
+    box-shadow: -10px 0 24px 4px rgb(40, 40, 40, .05) inset;
+    transition: transform .25s ease-in; display: none; 
+}
+@media screen and (min-width: 741px) {
+  .drawer{
+    max-width: 724px;     
+  }
+  aside{
+    display: block;      
+  }
+}
+.aside-heading{
+  text-transform: uppercase;
+  font-weight: 600; line-height: 1.4663636; letter-spacing: 1px;
+  color: rgb(40, 40, 40); text-align: center;
+}
+aside .shopping-cart-item{
+    display: block;
+}
+aside .shopping-cart-item>div{
+    text-align: center;
+}
+aside .item-price{
+  width: 100% 
+}
+.add-to-cart{
+    text-decoration: underline;
+}

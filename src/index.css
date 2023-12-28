@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+    box-sizing: border-box;
+    --heading-color:  #252525;
+    --text-color: #737373;
+    --base-font-size: 14px;
+    --heading-font-family: Montserrat, sans-serif;
+    --heading-font-weight: 500;
+    --heading-font-style: normal;
+    --text-font-weight: 400;
+    --text-font-style: normal;
+    --text-font-bold-weight: 600;
+    --heading-xxsmall-font-size: 10px;
+    --lr-padding: 0px 10px 0px 10px;
+}
+html {
+    font-family: var(--text-font-family);
+    font-weight: var(--text-font-weight);
+    font-style: var(--text-font-style);
+    color: var(--text-color);
+    
+    width:100%; overflow-x: hidden; 
+}
+body{
+    width:100%; margin:0% 0px 0px 0%; overflow-x:hidden; position:relative;
+}
