@@ -4,7 +4,7 @@ import stud from './earstuds.webp';
 import CartItems from './CartItems';
 import AsideCartItems from './AsideCartItems';
 
-const Cart2 = () => {
+const Cart = () => {
 
       //Test data
   let data=[
@@ -14,39 +14,38 @@ const Cart2 = () => {
         "jewelryName": "Freshwater Pearl Stud Earrings",
         "productPrice": 29.00,
         "quantity": 2,
-        "image": {stud},
+        "image": stud,
         "id": "1"
         },
         {
         "jewelryName": "Diamond Pendant Necklace",
         "productPrice": 99.99,
         "quantity": 1,
-        "image": {stud},
+        "image": stud,
         "id": "2",
         },
         {
         "jewelryName": "Sapphire and Diamond Ring",
         "productPrice": 79.95,
         "quantity": 3,
-        "image": {stud},
+        "image": stud,
         "id": "3",
         },
         {
         "jewelryName": "Emerald Bracelet",
         "productPrice": 49.50,
         "quantity": 1,
-        "image": {stud},
+        "image": stud,
         "id": "4",
         },
         {
         "jewelryName": "Rose Gold Hoop Earrings",
         "productPrice": 39.99,
         "quantity": 2,
-        "image": {stud},
+        "image": stud,
         "id": "5",
         }
     ]
-
     //State variables
     const [cartTotal, setCartTotal] = useState(0)
     const [items, setItems] = useState(data)
@@ -63,7 +62,7 @@ const Cart2 = () => {
 
     const isGt741 = window.innerWidth >= 741; // Adjust the width as needed
 
-    const sectionStyle = {
+    const drawerStyle = {
       maxWidth: isGt741 ? '724px' : '500px',
     };
     const asideStyle = {
@@ -185,7 +184,7 @@ const Cart2 = () => {
                 {asideItemList}
 
             </aside>
-            <div className="cart w-full max-w-2xl relative h-full">
+            <div className="cart w-full max-w-[500px] relative h-full">
                 <header className="
                     cart-header fixed flex items-center justify-between bg-white border-b 
                     text-heading-color font-semibold text-xl w-full max-w-[500px] p-4
@@ -207,7 +206,7 @@ const Cart2 = () => {
                         </svg>
                     </button>
                 </header>
-                <div className="cart-body mt-20 w-full overflow-y-auto" ref={cartBody}>
+                <div className="cart-body mt-20 w-full overflow-y-auto pb-[20px]" ref={cartBody}>
                     <div className="cart-body-inner w-4/5 mx-auto">
                         <div className="free-shipping-notice">
                             <p className="text-center mb-[15px]" >
@@ -251,4 +250,4 @@ const Cart2 = () => {
     );
 };
 
-export default Cart2;
+export default Cart;

@@ -1,5 +1,4 @@
 import React from "react"
-//import { useEffect, useState } from "react";
 
 
 const AsideCartItems = (props) => {
@@ -7,7 +6,7 @@ const AsideCartItems = (props) => {
   //State variables
 
   return (
-    <div className="shopping-cart-item block mb-[25px] text-center ">
+    <div className="shopping-cart-item block mb-[30px] text-center ">
         <div className="item-image-wrapper">
             <img src={props.image} alt={props.name} className="mx-auto text-[12px] p-[5px]"/>
         </div>

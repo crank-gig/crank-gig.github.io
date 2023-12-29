@@ -8,7 +8,7 @@ const CartItems = (props) => {
 
   return (
 
-    <div className="shopping-cart-item flex items-center mb-[15px]">
+    <div className="shopping-cart-item flex items-center mb-[30px]">
         <div className="item-image-wrapper ">
             <img src={props.image} alt={props.name} className="text-[12px]"/>
         </div>

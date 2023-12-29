@@ -1,5 +1,6 @@
 import React from "react"
 import { useState, useEffect, useRef } from "react";
+import stud from './earstuds.webp';
 
 
 const Checkout = ( ) => {
@@ -174,7 +175,7 @@ const Checkout = ( ) => {
                     <div className="
                       item-image-wrapper relative mr-[5px]
                     ">
-                      <img src="earstuds.webp" alt="ear studs earrings" className="
+                      <img src={stud} alt="ear studs earrings" className="
                         w-[64px] h-[64px] rounded-8 p-4 border border-[#0000001a]
                       "/>
                       <div class="
@@ -415,8 +416,9 @@ const Checkout = ( ) => {
                         onInput={(e)=>{showLabel(e)}} onBlur={(e)=>{removeBorder(e)}} onFocus={(e)=>{showBorder(e)}}
                       /> 
                     </div>
+                {/* button wrapper */}
                 <div className="
-                  shipping-info-form-footer p-[10px] border
+                  shipping-info-form-footer p-[10px]
                   min-[540px]:flex min-[540px]:flex-row-reverse justify-between
                 ">
                   <button
