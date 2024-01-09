@@ -3,7 +3,7 @@
     --neue-helv: 'helvetica-neue-interface-regular', sans-serif;
     --norm: 'freesans';
     --med: var(--db-helv);
-    --bod: 'freesansbold';
+    --bod: var(--db-helv);
     --rl-pad: 0px 15px 0px 15px;
     --6-weight: 600;
     --dark: #2e4049;

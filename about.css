@@ -74,17 +74,23 @@ footer>.top-nav{
     justify-content: center; width: 100%; text-decoration: underline;
 }
 footer>.top-nav>div{
-    border-left: unset;
+     border-left: unset;
 }
 footer>.top-nav>div a{
-   color: #475467;
+    color: #475467;
 }
-footer>div:nth-of-type(3){ 
+.address-mobile{
+    padding: 0px 20px 0px 20px; color: #667085; font-weight:bold;
+}
+.mobile{
+    margin-bottom: 5px;
+}
+.bottom{ 
     display:flex; justify-content: space-between;
     padding:20px;  flex-wrap: wrap;
 }
 .socials{
-    display: flex; gap: 20px
+    display: flex; gap: 20px; margin-bottom: 5px;
 }
 .socials+div{
     font-family: var(--med); color: #667085;
